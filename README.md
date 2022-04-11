@@ -10,11 +10,50 @@ Terminate: After its commands are executed, the shell executes any shutdown comm
 These steps are so general that they could apply to many programs, but we’re going to use them for the basis for our shell. Our shell will be so simple that there won’t be any configuration files, and there won’t be any shutdown command. So, we’ll just call the looping function and then terminate. But in terms of architecture, it’s important to keep in mind that the lifetime of the program is more than just looping.
 
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png)
+
+
+
+
 *Basic loop of a shell
 So we’ve taken care of how the program should start up. Now, for the basic program logic: what does the shell do during its loop? Well, a simple way to handle commands is with three steps:
 
 Read: Read the command from standard input.
 Parse: Separate the command string into a program and arguments.
 Execute: Run the parsed command.
+
+
+# systeme call            |
+--------------------------|
+access (man 2 access)     |
+chdir (man 2 chdir)       |
+close (man 2 close)       |
+closedir (man 3 closedir) |
+execve (man 2 execve)     |
+exit (man 3 exit)         |
+_exit (man 2 _exit)       |
+fflush (man 3 fflush)     |
+fork (man 2 fork)         |
+free (man 3 free)         |
+getcwd (man 3 getcwd)     |
+getline (man 3 getline)   |
+getpid (man 2 getpid)     |
+isatty (man 3 isatty)     |
+kill (man 2 kill)         |
+malloc (man 3 malloc)     |
+open (man 2 open)         |
+opendir (man 3 opendir)   |
+perror (man 3 perror)     |
+read (man 2 read)         |
+readdir (man 3 readdir)   |
+signal (man 2 signal)     |
+stat (__xstat)            |
+lstat (__lxstat)          |
+fstat (__fxstat)          |
+strtok (man 3 strtok)     |
+wait (man 2 wait)         |
+waitpid (man 2 waitpid)   |
+wait3 (man 2 wait3)       |
+wait4 (man 2 wait4)       |
+write (man 2 write)       |
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Collaboration_logo_V2.svg/1280px-Collaboration_logo_V2.svg.png)
