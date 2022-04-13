@@ -1,5 +1,4 @@
 # simple_shell
-**Simple shell 
 * hello my name is abdelkaderraddai today as a colaboration between me and my friend hichemmaatoug we created our simple shell that do Basic lifetime of a shell
 Let’s look at a shell from the top down. A shell does three main things in its lifetime.
 
@@ -11,6 +10,23 @@ These steps are so general that they could apply to many programs, but we’re g
  check this repo to get our code (https://github.com/hichem1312/simple_shell)
  # exemple 
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png)
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
 
 
 
