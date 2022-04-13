@@ -10,23 +10,23 @@ These steps are so general that they could apply to many programs, but we’re g
  check this repo to get our code (https://github.com/hichem1312/simple_shell)
  # exemple 
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png)
-*$ ./hsh
-*($) /bin/ls
-*hsh main.c shell.c
-*($)
-*($) exit
-*$
-*$ echo "/bin/ls" | ./hsh
-*hsh main.c shell.c test_ls_2
-*$
-*$ cat test_ls_2
+* $ ./hsh
+* ($) /bin/ls
+* hsh main.c shell.c
+* ($)
+* ($) exit
+* $ 
+* $ echo "/bin/ls" | ./hsh
+* hsh main.c shell.c test_ls_2
+* $
+* $ cat test_ls_2
+* /bin/ls
 */bin/ls
-*/bin/ls
-*$
-*$ cat test_ls_2 | ./hsh
-*hsh main.c shell.c test_ls_2
-*hsh main.c shell.c test_ls_2
-*$
+* $
+* $ cat test_ls_2 | ./hsh
+* hsh main.c shell.c test_ls_2
+* hsh main.c shell.c test_ls_2
+* $
 
 
 
