@@ -7,7 +7,7 @@ Initialize: In this step, a typical shell would read and execute its configurati
 Interpret: Next, the shell reads commands from stdin (which could be interactive, or a file) and executes them.
 Terminate: After its commands are executed, the shell executes any shutdown commands, frees up any memory, and terminates.
 These steps are so general that they could apply to many programs, but we’re going to use them for the basis for our shell. Our shell will be so simple that there won’t be any configuration files, and there won’t be any shutdown command. So, we’ll just call the looping function and then terminate. But in terms of architecture, it’s important to keep in mind that the lifetime of the program is more than just looping.
- #usage 
+ # usage 
  check this repo to get our code (https://github.com/hichem1312/simple_shell)
  # exemple 
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png)
