@@ -5,8 +5,15 @@
  */
 int main(void)
 {
-char *buffer, **path
+char *buffer = malloc(sizeof(char));
+char **path
 struct stat st;
+
+if (buffer == NULL)
+{
+	perror("allocation failed");
+	free(buffer);
+	exit(0);
 while (1)
 {
 	buffer = getting_a_line();
@@ -17,5 +24,6 @@ while (1)
 		execute(path);
 	}
 }
+free(buffer);
 return (0);
 }
