@@ -18,9 +18,8 @@ while (1)
 {
 	buffer = getting_a_line();
 	path = split_line(buffer);
-	if (stat(path[0], &st) != 0)
+	if (stat(path[0], &st) == 0)
 	{
-		path[0] = find_path(path[0]);
 		execute(path);
 	}
 }
