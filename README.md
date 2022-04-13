@@ -1,5 +1,5 @@
 # simple_shell
-** Simple shell 
+**Simple shell 
 * hello my name is abdelkaderraddai today as a colaboration between me and my friend hichemmaatoug we created our simple shell that do Basic lifetime of a shell
 Let’s look at a shell from the top down. A shell does three main things in its lifetime.
 
