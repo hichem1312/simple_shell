@@ -8,7 +8,7 @@ Initialize: In this step, a typical shell would read and execute its configurati
 Interpret: Next, the shell reads commands from stdin (which could be interactive, or a file) and executes them.
 Terminate: After its commands are executed, the shell executes any shutdown commands, frees up any memory, and terminates.
 These steps are so general that they could apply to many programs, but we’re going to use them for the basis for our shell. Our shell will be so simple that there won’t be any configuration files, and there won’t be any shutdown command. So, we’ll just call the looping function and then terminate. But in terms of architecture, it’s important to keep in mind that the lifetime of the program is more than just looping.
-
+ # exemple 
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png)
 
 
@@ -20,6 +20,11 @@ So we’ve taken care of how the program should start up. Now, for the basic pro
 Read: Read the command from standard input.
 Parse: Separate the command string into a program and arguments.
 Execute: Run the parsed command.
+# compile 
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+# execute :
+./hsh
 
 
 # systeme call            |
@@ -42,5 +47,7 @@ Execute: Run the parsed command.
 * wait (man 2 wait)         |
 * waitpid (man 2 waitpid)   |      |
 * write (man 2 write)       |
-
+# Collaborators 
+Hichem maatoug
+Abdelkader raddadi
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Collaboration_logo_V2.svg/1280px-Collaboration_logo_V2.svg.png)
