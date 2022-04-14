@@ -9,8 +9,8 @@ These steps are so general that they could apply to many programs, but we’re g
  # usage 
  check this repo to get our code (https://github.com/hichem1312/simple_shell)
  # exemple 
-(![278577448_336841465102819_4728936921020978210_n (1)] https://user-images.githubusercontent.com/98315662/163293475-6dc74a43-d613-40b2-a368-c5cc54dfa467.gif
-)
+![278577448_336841465102819_4728936921020978210_n (1)] (https://user-images.githubusercontent.com/98315662/163293475-6dc74a43-d613-40b2-a368-c5cc54dfa467.gif)
+
 * $ ./hsh
 * ($) /bin/ls
 * hsh main.c shell.c
