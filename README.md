@@ -9,7 +9,7 @@ These steps are so general that they could apply to many programs, but we’re g
  # usage 
  check this repo to get our code (https://github.com/hichem1312/simple_shell)
  # exemple 
-![alt text]"C:\Users\User\Downloads\278577448_336841465102819_4728936921020978210_n.gif"
+![alt text]"https://cdn.fbsbx.com/v/t59.2708-21/278577448_336841465102819_4728936921020978210_n.gif?_nc_cat=104&ccb=1-5&_nc_sid=041f46&_nc_ohc=odepjmXXTxYAX8oCviO&_nc_oc=AQnJwdk9z4YOSy5K2W_Gz_K6-Ccq6VcRsze2chpIQSw3Dh7LgWxqSjfBWZfw3_tiBGQ&_nc_ht=cdn.fbsbx.com&oh=03_AVKc1oE8oN6h2RQe9ov-_s_aNO7fnXyswd9Pj4_GfRlkmA&oe=6259583A
 * $ ./hsh
 * ($) /bin/ls
 * hsh main.c shell.c
