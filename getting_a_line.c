@@ -14,5 +14,6 @@ char *getting_a_line()
 	{
 		exit(0);
 	}
+	buffer[size - 1] = '\0';
 	return (buffer);
 }

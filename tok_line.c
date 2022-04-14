@@ -18,6 +18,5 @@ while (string)
 	i++;
 }
 commande[i + 1] = NULL;
-free(commande);
 return (commande);
 }
