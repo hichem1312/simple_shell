@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * execute - execute the command
- *@command: the command
+ *@commande: the command
  *Return: 0
  */
 int execute(char **commande)
