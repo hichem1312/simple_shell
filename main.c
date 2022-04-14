@@ -23,6 +23,10 @@ while (1)
 	{
 		execute(path);
 	}
+	else
+	{
+		perror("./shell");
+	}
 }
 free(buffer);
 return (0);
