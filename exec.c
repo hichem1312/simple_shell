@@ -6,7 +6,7 @@
  */
 int execute(char **commande)
 {
-	pid_t id
+	pid_t id;
 
 		id = fork();
 	if (id == 0)

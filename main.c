@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * main - sinmple shel
  * Return: 0
@@ -6,7 +6,7 @@
 int main(void)
 {
 char *buffer = malloc(sizeof(char));
-char **path
+char **path;
 struct stat st;
 
 if (buffer == NULL)
@@ -14,6 +14,7 @@ if (buffer == NULL)
 	perror("allocation failed");
 	free(buffer);
 	exit(0);
+}
 while (1)
 {
 	buffer = getting_a_line();

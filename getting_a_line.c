@@ -5,12 +5,12 @@
  */
 char *getting_a_line()
 {
-	size_t bufsize, size;
+	size_t bufsize, size, cmp = -1;
 	char *buffer;
 
 	write(STDOUT_FILENO, "$ ", 2);
 	size = getline(&buffer, &bufsize, stdin);
-	if (size == -1)
+	if (size == cmp)
 	{
 		exit(0);
 	}

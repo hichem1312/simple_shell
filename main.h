@@ -6,6 +6,7 @@
 #include <stddef.h>
 #include <string.h>
 #include <sys/wait.h>
+#include <sys/stat.h>
 extern char **environ;
 int main(void);
 int _strlen(char *s);

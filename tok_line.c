@@ -6,7 +6,7 @@
  */
 char **split_line(char *line)
 {
-	char **commande;
+	char **commande = malloc(sizeof(char) * 10);
 	char *string;
 	int i = 0;
 
@@ -18,5 +18,6 @@ while (string)
 	i++;
 }
 commande[i + 1] = NULL;
+free(commande);
 return (commande);
 }
