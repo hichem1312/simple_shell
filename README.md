@@ -9,7 +9,7 @@ These steps are so general that they could apply to many programs, but we’re g
  # usage 
  check this repo to get our code (https://github.com/hichem1312/simple_shell)
  # exemple 
-![alt text](https://media.geeksforgeeks.org/wp-content/uploads/cli_example.png)
+![alt text]"C:\Users\User\Downloads\278577448_336841465102819_4728936921020978210_n.gif"
 * $ ./hsh
 * ($) /bin/ls
 * hsh main.c shell.c
